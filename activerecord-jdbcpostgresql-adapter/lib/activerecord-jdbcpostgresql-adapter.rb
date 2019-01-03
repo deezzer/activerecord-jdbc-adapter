@@ -1,3 +1,3 @@
 # NOTE: here for Bundler to auto-load the gem unless :require => false
-require 'arjdbc'
-require 'arjdbc/postgresql'
+require 'src/java/arjdbc'
+require 'src/java/arjdbc/postgresql'
