@@ -1,7 +1,7 @@
 # -*- encoding: utf-8 -*-
 arjdbc_lib = File.expand_path("../../lib", __FILE__)
 $:.push arjdbc_lib unless $:.include?(arjdbc_lib)
-require 'arjdbc/version'
+require 'src/java/arjdbc/version'
 
 Gem::Specification.new do |gem|
   gem.name        = "activerecord-jdbcpostgresql-adapter"
